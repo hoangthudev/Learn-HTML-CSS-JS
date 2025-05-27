@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --primary-color: #4daf54;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    background: linear-gradient(to right, #4daf54, #3d8880);
+    font-family: 'poppins';
+}
+
+.card {
+    width: 320px;
+    height: 400px;
+    background: #272d40;
+    margin: 100px auto;
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+    position: relative;
+}
+
+.card-heart, .card-cart {
+    font-size: 25px;
+    cursor: pointer;
+    position: absolute; 
+    left: 15px;
+    top: 20px;
+}
+
+.card-cart {
+    left: unset;
+    right: 20px;
+}
+
+.card-img {
+    width: 90%;
+}
+
+.card-img img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.card-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--primary-color);
+    text-align: center;
+}
+
+.card-price {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.card-size {
+    display: flex;
+    align-items: center;
+    
+}
+
+.card-size p {
+    font-size: 18px;
+    padding: 5px;
+    border-radius:5px;
+    color: black;
+    background-color: gray;
+    margin-left: 5px;
+}
+
